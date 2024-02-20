@@ -1,6 +1,10 @@
 .page {
   background-color: black;
   color: white;
-  padding: 45px 200px 60px;
+}
+
+.page__content {
+  margin-left: 200px;
+  margin-right: 200px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
