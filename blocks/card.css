@@ -1,0 +1,33 @@
+.cards {
+  /*FONTS*/
+}
+
+.card__list {
+  display: grid;
+  list-style-type: none;
+}
+
+.card {
+}
+
+.card__image {
+  max-width: 282px;
+  height: 282px;
+}
+
+.card__description {
+  display: flex;
+  background: white;
+  color: black;
+  padding: 25px 20px 25px 20px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 282px;
+}
+
+.card__like-button {
+  background: transparent url(../images/like-button.svg) center no-repeat;
+  width: 21px;
+  height: 18px;
+  right: 20px;
+}
