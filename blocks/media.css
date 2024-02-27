@@ -1,0 +1,46 @@
+@media screen and (max-width: 680px) {
+  .profile {
+    background-color: pink;
+    flex-direction: column;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-left: 62px;
+    padding-right: 62px;
+  }
+
+  .profile__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .profile__description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile__add-button {
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    padding-left: 10px;
+  }
+
+  .footer {
+    width: 282px;
+    padding: 0 19px 36px;
+    margin: 48px 0 0;
+  }
+
+  .footer__copyright {
+    margin: 0;
+    padding: 0;
+  }
+}
