@@ -16,3 +16,9 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   min-height: 100vh;
 }
+
+@media screen and (max-width: 320px) {
+  .page__section {
+    max-width: 282px;
+  }
+}

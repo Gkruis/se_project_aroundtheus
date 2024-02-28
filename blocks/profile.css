@@ -65,3 +65,42 @@
 .profile__edit-button:hover {
   opacity: 60%;
 }
+
+@media screen and (max-width: 420px) {
+  .profile {
+    flex-direction: column;
+  }
+  .profile__image {
+    margin: 0 0 30px;
+    padding: 0;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 14px;
+    margin-bottom: 36px;
+  }
+
+  .profile__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .profile__description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile__add-button {
+    margin: 0;
+    width: 100%;
+    border: 2px solid white;
+    padding-left: 10px;
+  }
+}
