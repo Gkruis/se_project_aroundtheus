@@ -55,3 +55,7 @@
   right: 20px;
   border: none;
 }
+
+.card__like-button:hover {
+  opacity: 50%;
+}
