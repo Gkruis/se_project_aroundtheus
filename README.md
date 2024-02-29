@@ -1,5 +1,8 @@
 # Project 3: Around The U.S.
 
+A social page for viewing sights from around the world.
+
+
 *A website utilizing grid for responsive design along with media-queries for different screen sizes.
 
 
@@ -13,6 +16,10 @@
 
 
 *Fonts were imported from Inter and uses Arial and San-Serif as a backup and imported into index.css.
+
+
+
+![image](https://github.com/Gkruis/se_project_aroundtheus/assets/140862255/805a95a7-fb50-4eb4-879f-879bfcbfe267)
 
 
 
