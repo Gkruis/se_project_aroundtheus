@@ -20,6 +20,7 @@ A social page for viewing sights from around the world.
 
 
 ![image](https://github.com/Gkruis/se_project_aroundtheus/assets/140862255/805a95a7-fb50-4eb4-879f-879bfcbfe267)
+Link to website: https://gkruis.github.io/se_project_aroundtheus/
 
 
 
