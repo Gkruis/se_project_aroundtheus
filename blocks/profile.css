@@ -42,6 +42,9 @@
   font-weight: 400;
   grid-area: description;
   margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 373px;
 }
 
 .profile__edit-button {
@@ -63,6 +66,7 @@
   border: 2px solid rgba(255, 255, 255, 1);
   border-radius: 2px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .profile__add-button:hover {
@@ -93,8 +97,6 @@
   }
 
   .profile__title {
-    font-family: "Inter", Arial, sans-serif;
-    font-weight: 500;
     font-size: 22px;
     line-height: 26px;
     text-align: center;
