@@ -44,20 +44,19 @@ const cardTemplate =
 /*                               Functions                                */
 /* -----------------------------------------------------------------------*/
 function closePopup() {
-  profileEditModal.classList.remove("modal__opened");
+  profileEditModal.classList.remove("modal_opened");
 }
 
 function openPopup() {
-  profileEditModal.classList.add("modal__opened");
+  profileEditModal.classList.add("modal_opened");
 }
 
 function getCardElement(cardData) {
   const cardElement = cardTemplate.cloneNode(true);
   const cardImageEl = cardElement.querySelector(".card__image");
-  const cardImageAltEl = cardElement.querySelector(".card__image");
   const cardTitleEl = cardElement.querySelector(".card__description-title");
   cardImageEl.src = cardData.link;
-  cardImageAltEl.content = cardData.name;
+  cardImageEl.Alt = cardData.name;
   cardTitleEl.textContent = cardData.name;
   return cardElement;
 }
